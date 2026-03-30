@@ -44,4 +44,4 @@ You need a Parcel API key. Generate one at [web.parcelapp.net](https://web.parce
 
 ## License
 
-[Unlicense](LICENSE)
+[MIT](LICENSE)
