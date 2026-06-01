@@ -1,5 +1,5 @@
 {
-	"node": "n8n-nodes-base.parcelApp",
+	"node": "n8n-nodes-parcel-app.parcelApp",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
 	"categories": ["Miscellaneous"],

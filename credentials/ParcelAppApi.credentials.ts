@@ -10,6 +10,8 @@ export class ParcelAppApi implements ICredentialType {
 
 	displayName = 'Parcel App API';
 
+	icon = 'file:../nodes/ParcelApp/parcelApp.svg' as const;
+
 	documentationUrl = 'https://parcelapp.net/help/api-view-deliveries.html';
 
 	properties: INodeProperties[] = [
