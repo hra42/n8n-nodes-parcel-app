@@ -38,18 +38,6 @@ export class ParcelApp implements INodeType {
 				noDataExpression: true,
 				options: [
 					{
-						name: 'Get Deliveries',
-						value: 'getDeliveries',
-						action: 'Get deliveries',
-						description: 'Retrieve a list of deliveries',
-						routing: {
-							request: {
-								method: 'GET',
-								url: '/deliveries/',
-							},
-						},
-					},
-					{
 						name: 'Add Delivery',
 						value: 'addDelivery',
 						action: 'Add a delivery',
@@ -61,8 +49,20 @@ export class ParcelApp implements INodeType {
 							},
 						},
 					},
+					{
+						name: 'Get Deliveries',
+						value: 'getDeliveries',
+						action: 'Get deliveries',
+						description: 'Retrieve a list of deliveries',
+						routing: {
+							request: {
+								method: 'GET',
+								url: '/deliveries/',
+							},
+						},
+					},
 				],
-				default: 'getDeliveries',
+				default: 'addDelivery',
 			},
 
 			// --- Get Deliveries fields ---
