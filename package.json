@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-parcel-app",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "n8n community node for the Parcel delivery tracking API (parcelapp.net)",
 	"license": "MIT",
 	"homepage": "https://parcelapp.net",
